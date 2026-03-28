@@ -127,6 +127,26 @@ export default function App() {
         </div>
       </section>
 
+      {/* Featured Video */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Sora' }}>Featured Demo</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            Watch a demonstration of QGIS-based electrical engineering analysis and smart grid technology.
+          </p>
+          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+              src="https://www.youtube.com/embed/az1wbce5gyk"
+              title="QGIS Smart Grid Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Metrics */}
       <section className="py-16 bg-gray-50">
         <div className="container">
