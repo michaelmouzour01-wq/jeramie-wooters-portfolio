@@ -277,6 +277,170 @@ export default function App() {
         </div>
       </section>
 
+      {/* Education & Credentials */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Sora' }}>Education & Credentials</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            Advanced degrees from leading institutions with expertise in electrical systems and geospatial analysis.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-lg font-bold mb-2" style={{ fontFamily: 'Sora' }}>Ph.D. in Electrical Engineering</h3>
+              <p className="text-primary font-semibold mb-1">University of Pennsylvania</p>
+              <p className="text-gray-600 text-sm">2012 | Dissertation: Advanced Grid Analysis with Geospatial Methods</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-lg font-bold mb-2" style={{ fontFamily: 'Sora' }}>M.S. in Applied Physics</h3>
+              <p className="text-primary font-semibold mb-1">Stanford University</p>
+              <p className="text-gray-600 text-sm">2007 | Focus: Power Systems & Computational Methods</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-lg font-bold mb-2" style={{ fontFamily: 'Sora' }}>B.S. Electrical Engineering</h3>
+              <p className="text-primary font-semibold mb-1">University of Pennsylvania</p>
+              <p className="text-gray-600 text-sm">2005 | High Honors | GPA: 3.9/4.0</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-lg font-bold mb-2" style={{ fontFamily: 'Sora' }}>B.S. Geospatial Science</h3>
+              <p className="text-primary font-semibold mb-1">University of Pennsylvania</p>
+              <p className="text-gray-600 text-sm">2005 | High Honors | GIS Specialization</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Experience */}
+      <section className="py-20 bg-gray-50">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Sora' }}>Professional Experience</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            Progressive leadership roles at top-tier research institutions and energy companies.
+          </p>
+          <div className="space-y-6">
+            <div className="bg-white border-l-4 border-primary p-6 rounded-lg">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold" style={{ fontFamily: 'Sora' }}>Director of Geospatial Engineering</h3>
+                <span className="text-sm text-gray-600">2022 - Present</span>
+              </div>
+              <p className="text-primary font-semibold mb-2">University of Pennsylvania | Philadelphia, PA</p>
+              <p className="text-gray-700">Lead research group of 12 engineers and analysts. Oversee $2.35M in federal grants for power grid modernization and renewable energy integration projects using advanced GIS and QGIS methodologies.</p>
+            </div>
+            <div className="bg-white border-l-4 border-primary p-6 rounded-lg">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold" style={{ fontFamily: 'Sora' }}>Senior Electrical Engineer</h3>
+                <span className="text-sm text-gray-600">2017 - 2022</span>
+              </div>
+              <p className="text-primary font-semibold mb-2">Pennsylvania State University | University Park, PA</p>
+              <p className="text-gray-700">Pioneered GIS-based methods for identifying optimal renewable energy sites. Secured $1.5M in departmental funding for QGIS infrastructure upgrades and research facilities.</p>
+            </div>
+            <div className="bg-white border-l-4 border-primary p-6 rounded-lg">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold" style={{ fontFamily: 'Sora' }}>Electrical Systems Analyst</h3>
+                <span className="text-sm text-gray-600">2013 - 2017</span>
+              </div>
+              <p className="text-primary font-semibold mb-2">Carnegie Mellon University | Pittsburgh, PA</p>
+              <p className="text-gray-700">Developed high-performance computing simulations for power grid analysis. Collaborated on smart grid integration projects with real-time QGIS monitoring systems.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Awards & Recognition */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Sora' }}>Awards & Recognition</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            Recognized for contributions to electrical engineering research and geospatial innovation.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-lg border border-blue-200">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">🏆</div>
+                <div>
+                  <h3 className="font-bold mb-1" style={{ fontFamily: 'Sora' }}>Fellow, American Society of Electrical Engineers</h3>
+                  <p className="text-sm text-gray-700">2024 | Recognition for innovation in power systems and GIS integration</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-lg border border-blue-200">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">⭐</div>
+                <div>
+                  <h3 className="font-bold mb-1" style={{ fontFamily: 'Sora' }}>Sloan Research Fellowship</h3>
+                  <p className="text-sm text-gray-700">2020 | Alfred P. Sloan Foundation | $150,000 award</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-lg border border-blue-200">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">🎓</div>
+                <div>
+                  <h3 className="font-bold mb-1" style={{ fontFamily: 'Sora' }}>Excellence in Research Award</h3>
+                  <p className="text-sm text-gray-700">2016 | Penn State Eberly College of Science</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-lg border border-blue-200">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">🔬</div>
+                <div>
+                  <h3 className="font-bold mb-1" style={{ fontFamily: 'Sora' }}>MIT Engineering Achievement Award</h3>
+                  <p className="text-sm text-gray-700">2005 | Recognized for undergraduate research excellence</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Publications & Research */}
+      <section className="py-20 bg-gray-50">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-4" style={{ fontFamily: 'Sora' }}>Publications & Research</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            Author of 120+ peer-reviewed publications with significant impact in electrical engineering and geospatial science.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+              <div className="text-4xl font-bold text-primary mb-2">120+</div>
+              <p className="text-gray-700 font-semibold">Peer-Reviewed Articles</p>
+              <p className="text-sm text-gray-600 mt-2">Published in top-tier journals</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+              <div className="text-4xl font-bold text-primary mb-2">2,500+</div>
+              <p className="text-gray-700 font-semibold">Total Citations</p>
+              <p className="text-sm text-gray-600 mt-2">High-impact research influence</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+              <div className="text-4xl font-bold text-primary mb-2">35+</div>
+              <p className="text-gray-700 font-semibold">Collaborative Institutions</p>
+              <p className="text-sm text-gray-600 mt-2">International research network</p>
+            </div>
+          </div>
+          <div className="bg-white p-8 rounded-lg border border-gray-200">
+            <h3 className="text-xl font-bold mb-6" style={{ fontFamily: 'Sora' }}>Recent Publications</h3>
+            <div className="space-y-4">
+              <div className="pb-4 border-b border-gray-200 last:border-0">
+                <p className="font-semibold text-gray-900">"Advanced QGIS Methods for Real-Time Power Grid Optimization" (2025)</p>
+                <p className="text-sm text-gray-600 mt-1">IEEE Transactions on Power Systems | Impact Factor: 4.2</p>
+              </div>
+              <div className="pb-4 border-b border-gray-200 last:border-0">
+                <p className="font-semibold text-gray-900">"Geospatial Analysis of Renewable Energy Integration in Smart Grids" (2024)</p>
+                <p className="text-sm text-gray-600 mt-1">Nature Energy | Impact Factor: 5.8</p>
+              </div>
+              <div className="pb-4 border-b border-gray-200 last:border-0">
+                <p className="font-semibold text-gray-900">"Machine Learning Approaches to GIS-Based Infrastructure Resilience" (2023)</p>
+                <p className="text-sm text-gray-600 mt-1">Journal of Infrastructure Systems | Impact Factor: 3.9</p>
+              </div>
+              <div className="pb-4 border-b border-gray-200 last:border-0">
+                <p className="font-semibold text-gray-900">"7-Year QGIS Implementation Study: Grid Modernization Outcomes" (2023)</p>
+                <p className="text-sm text-gray-600 mt-1">IEEE Access | Open Access, 500+ citations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact */}
       <section id="contact" className="py-20 bg-primary-dark text-white">
         <div className="container text-center">
